@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gopi Tadapaneni</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">GT</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Gopi Tadapaneni</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <style>
+        body{
+          background: url("assets/bgg5.jpeg");
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+      </style>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Gopi Krishna Tadapaneni</h1>
+        <p class="section__text__p2">A Computer Science Graduate expert in <br><span class="typing"></span></p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-2" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/gopi-krishna-tadapaneni-153b531b6'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Gopi4596'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <p>
+        I am a Highly motivated and work-oriented Computer Science graduate with over 2 years of Industry experience in software development including my Internship, <br> 
+        and also enhanced my ability to design, develop, test, and deploy high-quality, scalable applications. 
+        I am also a Skilled Individual in problem-solving, critical thinking, and working collaboratively within a team environment. <br>
+        Finally I am Eager to leverage technical expertise and contribute to the success of a fast-paced, innovative company. <br><br>
+        Here are the details about my Education.
+      </p>
+      <center>
+        <h3>Education</h3>
+        <img
+          src="./assets/education.png"
+          alt="Education icon"
+          class="icon"
+        />
+      </center>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h4>Master's Degree</h4>
+              <a href="https://www.tamuk.edu" target="_blank">Texas A & M University - Kingsville</a>
+              <span style="font-size: 80%"> - Kingsville, Texas, USA</span><br><br>
+              <p>Master Of Science in Computer Science</p>
+              <p>Aug 2022 - Dec 2023</p>
+            </div>
+            <div class="details-container">
+              <h4>Bachelor's Degree</h4>
+              <a href="https://www.diet.ac.in" target="_blank">Dhanekula Institute of Engineering and Technology</a>
+              <span style="font-size: 80%"> - Vijayawada, AP, India</span><br><br>
+              <p>Bachelor in Computer Science</p>
+              <p>June 2018 - May 2022</p><br><br>
+            </div>
+          </div>
+    </section>
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/htmllogo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/csslogo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/javalogo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JAVA</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/javascriptlogo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/typescriptlogo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/pythonlogo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/clogo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/c++logo.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/sqllogo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/phplogo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PHP</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/angularjslogo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AngularJS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Rlogo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>R</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Cloud and Other</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/gitlogo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/mysqllogo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/linuxlogo.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Linux</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/awslogo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AWS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/googlecloudlogo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Google Cloud</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Have a look at My</p>
+      <div class="title"><h4>Experience</h4></div>
+      <div class="experience-details-container">
+        <div class="details-container1">
+          <div class="project-name">
+            <b> Java Developer</b>
+            <span style="font-size: 80%"> Contract <br><b>Quantom Tech LLC</b> -- Centennial, CO &emsp;&emsp; <b>Feb 2024 to Present</b></span><br>
+          </div>
+          <p>
+            •	Used Agile principles to implement the projects using two-week sprints, planning meeting, daily standups, grooming, estimation, and retrospectives. <br>
+            •	Designed dynamic and multi-browser compatible sites (mobile apps) using HTML5, CSS3, jQuery and JavaScript, Typescript. <br>
+            •	Used Angular JS to create custom directives for data manipulations and to display data in company standard format in UI. <br>
+            •	Used interceptors in Angular JS for configuring security authentication for session management and to combine
+               web applications with Model View Controller capability to make development and testing of code efficient. <br>
+            •	Designed and Integrated SOAP UI to test web services using the development team's WSDL file and
+               worked on SOAP and RESTFUL web services to integrate with Axis frameworks old systems. <br>
+            •	Designed application on the presentation layer using Spring MVC and AJAX constructed the business layer using spring and hibernate. <br>
+            •	Designed and built DAO layer with Hibernate standards for access to IBM DB2 and created jpa entities/relations, DB2 physical data base data model. <br>
+            •	Used Bitbucket to store and maintain source code and Used JIRA for bug tracking and pull requests. <br>
+            •	Configured WebLogic Portal Server, creating users, user groups, defining rules, content management and portal security. <br>
+            •	Developed Microservices with PCF to display the main identity management functionality in the cloud. <br>
+          </p><br><br>
+        </div>
+        <div class="details-container1">
+          <div class="project-name">
+            <b>Junior Java Developer</b>
+            <span style="font-size: 80%"> Internship <br><b>Vodafone</b> -- Hyderabad, IN &emsp;&emsp;&emsp;&emsp;&emsp;<b> June 2020 to July 2022</b></span><br>
+          </div>
+          <p>
+            ●	Developed an application using Spring Framework that leverages classical Model View Layer (MVC) architecture, UML diagrams like 
+              use case diagrams, class diagrams, interaction diagrams and activity diagrams were used. <br>
+            ●	Developed application based on Struts Framework using MVC design pattern. <br>
+            ●	Involved in designing user screens and validations using HTML5, jQuery and JSF as per user requirements. <br>
+            ●	Designed Dynamic and Multi-Browser compatible sites (Mobile Apps) using HTML5, CSS3 and JavaScript. <br>
+          </p><br><br>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects"><br><br>
+        <p class="section__text__p1">Explore My</p>
+        <div class="title"><h3>Projects</h3></div>
+        <div class="contact-info-upper-container1">
+          <div class="contact-info-container1">
+           <div class="project-name">
+             <a href="" target="_blank" class="arrow-link"><strong> BigMart Sales Prediction </strong></strong></a>
+             <span style="font-size: 80%"> - Python, ML</span><br><br>
+           </div>
+           <p>Developed a Machine which takes input the past sales of the big mart and 
+             Preprocess the data to remove all the unnecessary values and trains the dataset accordingly.
+             After the Completion of training we apply Different machine learning algorithms like 
+             Linear, Ridge and Random forest Regression Techniques in order to predict the Sales of the Future and update the inventory accordingly.
+           </p>
+          </div><br><br>
+          <div class="contact-info-container1">
+           <div class="project-name">
+             <a href="https://diet.ac.in/library/" target="_blank" class="arrow-link"><strong> Library Management System </strong></a>
+             <span style="font-size: 80%"> - Java, JS</span><br><br>
+           </div>
+           <p>Developed a Machine for the library that assess all the information about the books and the students and 
+              calculate the number of books taken by the students and are available in the library and return dates and also the fines in case of late return.
+           </p>
+          </div>
+
+        </div>
+    </section>
+    
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:tadapanenigopikrshna@gmail.com">tadapanenigopikrshna@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://linkedin.com/in/gopi-krishna-tadapaneni-153b531b6">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/github.png"
+            alt="GitHub Icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="https://github.com/Gopi4596">GitHub</a></p>
+
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Gopi Tadapaneni. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
